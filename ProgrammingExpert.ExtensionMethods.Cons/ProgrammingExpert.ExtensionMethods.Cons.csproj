@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ProgrammingExpert.Domain\ProgrammingExpert.Domain.csproj" />
     <ProjectReference Include="..\ProgrammingExpert.ExtensionMethods\ProgrammingExpert.ExtensionMethods.csproj" />
   </ItemGroup>
 

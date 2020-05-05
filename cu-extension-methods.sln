@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingExpert.Extension
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingExpert.ExtensionMethods", "ProgrammingExpert.ExtensionMethods\ProgrammingExpert.ExtensionMethods.csproj", "{E73AF515-BD28-49CB-8889-7BAB24DDFED4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingExpert.Domain", "ProgrammingExpert.Domain\ProgrammingExpert.Domain.csproj", "{9C08645C-CFAA-40CA-878C-E45250795C2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C08645C-CFAA-40CA-878C-E45250795C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C08645C-CFAA-40CA-878C-E45250795C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C08645C-CFAA-40CA-878C-E45250795C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C08645C-CFAA-40CA-878C-E45250795C2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
