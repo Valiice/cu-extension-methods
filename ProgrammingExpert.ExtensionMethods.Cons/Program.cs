@@ -32,7 +32,7 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
             };
 
             int olderThanAge = 20;
-            var femaleSingersOlderThanAndActive = singers.OlderThan(olderThanAge).IsFemale().IsActive();
+            var femaleSingersOlderThanAndActive = singers.AreOlderThan(olderThanAge).AreFemale().AreActive();
 
             foreach (var singer in femaleSingersOlderThanAndActive)
             {
@@ -42,7 +42,7 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
             Console.WriteLine("\n===============================================================\n");
 
             olderThanAge = 40;
-            var allSingersOlderThanAndActive = singers.OlderThan(olderThanAge).IsActive();
+            var allSingersOlderThanAndActive = singers.AreOlderThan(olderThanAge).AreActive();
 
             foreach (var singer in allSingersOlderThanAndActive)
             {
@@ -51,7 +51,7 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
 
             Console.WriteLine("\n===============================================================\n");
 
-            var allSingersThatAreActive = singers.IsActive();
+            var allSingersThatAreActive = singers.AreActive();
 
             foreach (var singer in allSingersThatAreActive)
             {

@@ -7,7 +7,7 @@ namespace ProgrammingExpert.ExtensionMethods
 {
     public static class SingerExtensions
     {
-        public static IEnumerable<Singer> OlderThan(this IEnumerable<Singer> singers, int age)
+        public static IEnumerable<Singer> AreOlderThan(this IEnumerable<Singer> singers, int age)
         {
             foreach (var singer in singers)
             {
@@ -19,7 +19,7 @@ namespace ProgrammingExpert.ExtensionMethods
             }
         }
 
-        public static IEnumerable<Singer> IsFemale(this IEnumerable<Singer> singers)
+        public static IEnumerable<Singer> AreFemale(this IEnumerable<Singer> singers)
         {
             foreach (var singer in singers)
             {
@@ -30,7 +30,7 @@ namespace ProgrammingExpert.ExtensionMethods
             }
         }
 
-        public static IEnumerable<Singer> IsActive(this IEnumerable<Singer> singers)
+        public static IEnumerable<Singer> AreActive(this IEnumerable<Singer> singers)
         {
             foreach (var singer in singers)
             {
