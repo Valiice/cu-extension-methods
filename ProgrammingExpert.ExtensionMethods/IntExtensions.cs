@@ -10,5 +10,9 @@ namespace ProgrammingExpert.ExtensionMethods
         {
             return i > value;
         }
+        public static string IsOdd(this int i)
+        {
+            return i % 2 == 0 ? $"{i} isn't odd" : $"{i} is odd";
+        }
     }
 }

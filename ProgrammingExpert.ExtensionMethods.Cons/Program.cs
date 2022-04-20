@@ -13,6 +13,10 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
             // Plaats hier je code
 
             Console.ReadLine();
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number.IsOdd());
+            }
         }
     }
 }
