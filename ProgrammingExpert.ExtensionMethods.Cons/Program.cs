@@ -11,8 +11,10 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
             string text = "This is a line of text";
 
             // Plaats hier je code
-
-            Console.ReadLine();
+            Console.WriteLine(text.CountChar('i'));
+            Console.WriteLine(text.CountChar('q'));
+            Console.WriteLine(text.CountChar('t'));
+            Console.WriteLine(text.CountChar(char.Parse(Console.ReadLine())));
         }
     }
 }
