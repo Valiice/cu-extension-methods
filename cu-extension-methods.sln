@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingExpert.ExtensionMethods.Cons", "ProgrammingExpert.ExtensionMethods.Cons\ProgrammingExpert.ExtensionMethods.Cons.csproj", "{9F0BF433-1B93-4D3D-97D7-B4E6E7423B6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingExpert.ExtensionMethods", "ProgrammingExpert.ExtensionMethods\ProgrammingExpert.ExtensionMethods.csproj", "{E73AF515-BD28-49CB-8889-7BAB24DDFED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9F0BF433-1B93-4D3D-97D7-B4E6E7423B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F0BF433-1B93-4D3D-97D7-B4E6E7423B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F0BF433-1B93-4D3D-97D7-B4E6E7423B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73AF515-BD28-49CB-8889-7BAB24DDFED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

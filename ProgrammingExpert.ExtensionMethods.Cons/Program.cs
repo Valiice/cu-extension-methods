@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ProgrammingExpert.ExtensionMethods.Cons
 {
@@ -6,18 +8,15 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(@" 
-    _______  _______________   _______ ________  _   __   __  _________________  ______  ____  _____
-   / ____/ |/ /_  __/ ____/ | / / ___//  _/ __ \/ | / /  /  |/  / ____/_  __/ / / / __ \/ __ \/ ___/
-  / __/  |   / / / / __/ /  |/ /\__ \ / // / / /  |/ /  / /|_/ / __/   / / / /_/ / / / / / / /\__ \ 
- / /___ /   | / / / /___/ /|  /___/ // // /_/ / /|  /  / /  / / /___  / / / __  / /_/ / /_/ /___/ / 
-/_____//_/|_|/_/ /_____/_/ |_//____/___/\____/_/ |_/  /_/  /_/_____/ /_/ /_/ /_/\____/_____//____/   ");
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-            Console.WriteLine("\n\n===================================================================================");
-            Console.WriteLine("Check out the different branches in the solution for the examples");
-            Console.WriteLine("===================================================================================");
+            // Plaats hier je code
+
             Console.ReadLine();
-
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number.IsOdd());
+            }
         }
     }
 }
