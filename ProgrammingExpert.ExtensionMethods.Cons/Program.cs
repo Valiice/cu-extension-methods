@@ -14,7 +14,8 @@ namespace ProgrammingExpert.ExtensionMethods.Cons
             Console.WriteLine(text.CountChar('i'));
             Console.WriteLine(text.CountChar('q'));
             Console.WriteLine(text.CountChar('t'));
-            Console.WriteLine(text.CountChar(char.Parse(Console.ReadLine())));
+            char c = char.Parse(Console.ReadLine());
+            Console.WriteLine(text.CountChar(c));
         }
     }
 }
